@@ -1,0 +1,8 @@
+<ion-view title="Community Events">
+  <ion-content class="has-header padding">
+	<h2>Community Events</h2>
+	<ul>        
+	    <li ng-repeat="item in events" ng-cloak>{{item.community_event_title}} - {{item.community_event_date}} - {{item.location.location_name}}</li>
+	</ul>
+  </ion-content>
+</ion-view>
